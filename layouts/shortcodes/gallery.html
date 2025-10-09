@@ -1,0 +1,6 @@
+<div class="gallery">
+  {{ $files := readDir "content/en/gallery" }}
+  {{ range $files }}
+    <img src="/gallery/{{ .Name }}" alt="{{ .Name }}">
+  {{ end }}
+</div>

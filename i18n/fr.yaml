@@ -1,0 +1,16 @@
+- id: publications
+  translation: "Publications"
+- id: news
+  translation: "Actualités"
+- id: Recent News
+  translation: "Actualités"  
+- id: talks
+  translation: "Conférences"
+- id: projects
+  translation: "Projets"
+- id: experience
+  translation: "Expérience"
+- id: skills
+  translation: "Compétences"
+- id: contact
+  translation: "Contact"
