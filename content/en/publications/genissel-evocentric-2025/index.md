@@ -22,8 +22,6 @@ publication: "*Scientific Reports of the Port-Cros National Park"
 publication_short: "Sci. Rep. Port-Cros Natl. Park"
 
 abstract: 
- ENGLISH
- 
 
  Although awareness of environmental issues is increasing, human activities
  continue to place unprecedented pressure on ecosystems. In response, many
@@ -60,47 +58,6 @@ abstract:
  and any other protected area which would seek to follow its pioneering strategy.
 
 
- FRANCAIS
- 
-
- Bien que la sensibilisation aux enjeux
- environnementaux soit en augmentation, les activités humaines continuent de mettre
- une pression sans précédent sur les écosystèmes. En réponse, de nombreux pays se sont engagés à protéger 30 % des terres et des mers d'ici 2030, conformément au
- « Global Biodiversity Framework » de la Convention sur la Diversité Biologique.
- Cependant, une conservation efficace nécessite plus qu'une simple protection
- légale ':' elle exige des objectifs clairs, des ressources suffisantes et l'engagement des
- parties prenantes locales. Ainsi, la question des valeurs en conservation est
- essentielle et influence les raisons et les méthodes de conservation. Le Panel
- International sur la Biodiversité et les Services Écosystémiques (IPBES) souligne
- l'importance de comprendre et d'équilibrer ces valeurs, en reflétant les rôles et
- impacts humains sur la biodiversité. Dans ce contexte, l'approche évocentrée,
- proposée par Sarrazin et Lecomte (2016), souligne l’objectif d’intégration des besoins
- humains à court et à long termes avec le respect des trajectoires évolutives des
- autres espèces. L'approche évocentrée vise à réduire l'empreinte évolutive humaine
- et à maintenir le potentiel adaptatif de la biodiversité. Ce faisant, elle propose un
- cadre global de conservation qui respecte à la fois les processus évolutifs des
- humains et des autres espèces. Le Parc national de Port-Cros (PNPC) en France est
- le premier espace protégé à adopter cette approche. La stratégie scientifique du
- PNCP pour 2023-2032 vise à aligner les efforts de conservation sur les principes
- évolutifs, en tenant compte des impacts globaux des activités humaines sur
- l'évolution. Les processus évolutifs, tant la microévolution que la macroévolution,
- définissent et façonnent la biodiversité. Les activités humaines ont considérablement
- influencé ces processus, entraînant souvent des changements évolutifs rapides et
- parfois des extinctions d'espèces. Par conséquent, les efforts de conservation doivent
- prendre en compte ces impacts pour atténuer efficacement les perturbations induites
- par les activités humaines à ces échelles. La stratégie scientifique du PNPC souligne
- la nécessité de trouver un équilibre entre la restauration active et le laisser-faire des
- processus naturels. Le PNPC vise à réduire l'impact humain en définissant des
- degrés d'intervention et en se concentrant sur le maintien des fonctions écologiques
- et des dynamiques évolutives. Cette stratégie, qui répond aux besoins de
- conservation à court et à long termes, prend en compte les intérêts des parties
- prenantes et promeut des « gradients de naturalité » pour gérer les activités
- humaines. Établir des priorités dans les objectifs de conservation en fonction de la
- responsabilité évolutive du PNCP vis-à-vis de la biodiversité vivant sur son territoire,
- identifier et réduire les pressions sur les processus évolutifs, et impliquer les acteurs
- locaux dans cette stratégie évocentrée seront les prochains défis du PNCP et de
- toute autre aire protégée qui souhaiterait suivre sa stratégie pionnière.
-
 # Summary. An optional shortened abstract.
 summary: 
 
@@ -112,7 +69,8 @@ tags:
 - biodiversity
 - environmental ethics
 - strategic planning
-featured: false
+
+featured: true
 
 hugoblox:
   ids:

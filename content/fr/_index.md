@@ -16,8 +16,11 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: CV
         url: uploads/resume.pdf
+      button2:
+        text: Fiche conférencier
+        url: uploads/fiche_speaker_thibault_genissel.pdf       
       headings:
         about: ''
         education: ''
@@ -29,16 +32,19 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+     
+
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 Ma recherche'
       subtitle: ''
       text: |-
-       I am interested in the connections between science, society, and biodiversity conservation. As part of my PhD at Sorbonne University, I worked the evocentric approach that promotes more integration of evolution in conseration and the reduction of the human evolutionary footprint on life. My research explores metrics and assessment tools and their implementation in conservation policies and practices. My academic path has also led me to study animal behavior, ecology and social interactions (primates, ungulates) and to take part in international forums (COP15 biodiversity, IUCN) where major biodiversity challenges are discussed. Beyond this, I have a strong personal interest in mountain ecosystems, for their understanding, their protection, and for fostering  ways of living that adapt to their changes while limiting our impact.
+       Mes travaux portent sur les liens entre science, société et conservation de la biodiversité. Dans le cadre de ma thèse à Sorbonne Université, j'ai travaillé sur l'approche évocentrée, qui promeut une meilleure intégration de l'évolution en conservation et la réduction de l'empreinte évolutive humaine sur les vivants. Mes recherches explorent les métriques et concepts de l'approche évocentrée, ainsi que leur mise en œuvre dans les politiques et pratiques de conservation. Mon parcours s'est nourri d'un travail sur le comportement animal, l'écologie spatiale et les interactions sociales chez les mammifères (primates, ongulés), ainsi que de ma participation à des forums internationaux (COP15 biodiversité, UICN) où sont débattus les grands enjeux de la conservation. De manière plus locale, je porte un intérêt personnel fort pour les écosystèmes de montagne, leur compréhension et la protection de leur faune et de leur flore.
 
-        Please reach out to collaborate 😃
+       Contactez-moi pour collaborer 😃
     design:
       columns: '1'
+      css_class: 'universal-wrapper'
   - block: collection
     id: papers
     content:
@@ -52,7 +58,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications récentes
       text: ''
       filters:
         folders:
@@ -63,41 +69,42 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Conférences récentes & à venir
       filters:
         folders:
-          - events
+          - book #events
+        featured_only: true
     design:
       view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+#  - block: collection
+#    id: news
+#    content:
+#      title: Recent News
+#      subtitle: ''
+#      text: ''
+#      # Page type to display. E.g. post, talk, publication...
+#      page_type: blog
+#      # Choose how many pages you would like to display (0 = all pages)
+#      count: 5
+#      # Filter on criteria
+#      filters:
+#        author: ''
+#        category: ''
+#        tag: ''
+#        exclude_featured: false
+#        exclude_future: false
+#        exclude_past: false
+#        publication_type: ''
+#      # Choose how many pages you would like to offset by
+#      offset: 0
+#      # Page order: descending (desc) or ascending (asc) date.
+#      order: desc
+#    design:
+#      # Choose a layout view
+#      view: card
+#      # Reduce spacing
+#      spacing:
+#        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

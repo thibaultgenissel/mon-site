@@ -24,7 +24,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Research Scientist in Conservation Science
+role: Researcher and Speaker in Conservation Sciences
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -226,7 +226,8 @@ I am a young research scientist who has recently completed a PhD at Sorbonne Uni
 
 I have taught tutorials at university and now continue to tutor graduating students privately.
 
-I also pursue scientific communication activities through talks for various audience and on various topics related to the Anthropocene, biodiversity conservation and envitonmental philosophy.
+I also pursue scientific communication through public and professional talks on ecological transition, biodiversity conservation, and environmental philosophy.
+
 
 
 

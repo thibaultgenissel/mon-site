@@ -17,8 +17,24 @@ fr:
   title: "Thibault Genissel - Recherche"
   params:
     description: "Mon CV académique et mes publications"
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  menu:
+    main:
+      - name: Bio
+        url: /fr/
+        weight: 10
+      - name: CV
+        url: /fr/experience/
+        weight: 20        
+      - name: Publications
+        url: /fr/publications/
+        weight: 30
+
+      - name: Conférences
+        url: /fr/book/
+        weight: 50
+  #    - name: Projets
+   #     url: /fr/project/
+    #    weight: 60
+      - name: Galerie
+        url: /fr/gallery/
+        weight: 70

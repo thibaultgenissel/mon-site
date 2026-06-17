@@ -1,5 +1,5 @@
 ---
-title: "Talk & writings proposals"
+title: "Talks proposals"
 type: page
 
 # Vue par défaut (cards, liste, citations…)

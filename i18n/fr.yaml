@@ -14,3 +14,62 @@
   translation: "Compétences"
 - id: contact
   translation: "Contact"
+- id: languages
+  translation: "Langues"
+
+- id: interests
+  translation: "Centres d'intérêt"
+
+- id: education
+  translation: "Formation"
+
+- id: experience
+  translation: "Expérience"
+
+- id: about_me
+  translation: "Résumé professionnel"
+
+- id: publications
+  translation: "Publications"
+
+- id: events
+  translation: "Événements"
+
+- id: projects
+  translation: "Projets"
+
+- id: search
+  translation: "Rechercher"
+
+- id: present
+  translation: "Aujourd'hui"
+
+- id: read_more
+  translation: "Lire la suite"
+
+- id: more_publications
+  translation: "Voir toutes les publications"
+
+- id: abstract
+  translation: "Résumé"
+
+- id: publication
+  translation: "Publication"
+
+- id: date
+  translation: "Date"
+
+- id: event
+  translation: "Événement"
+
+- id: location
+  translation: "Lieu"
+
+- id: pub_article_journal
+  translation: "Article de journal"
+
+- id: pub_thesis
+  translation: "Thèse"
+
+- id: pub_book
+  translation: "Livre"

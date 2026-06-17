@@ -1,5 +1,5 @@
 ---
-title: "Submitted paper: evolutionary footprint: new indicators for ecology, evolution and conservation"
+title: "Evolutionary footprint: new indicators for ecology, evolution and conservation"
 authors:
 - admin
 date: "2025-04-07T00:00:00Z"
