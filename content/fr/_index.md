@@ -17,10 +17,10 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: CV
-        url: uploads/resume.pdf
+        url: /uploads/CV_Génissel.pdf
       button2:
         text: Fiche conférencier
-        url: uploads/fiche_speaker_thibault_genissel.pdf       
+        url: /uploads/fiche_conferencier_genissel.pdf       
       headings:
         about: ''
         education: ''

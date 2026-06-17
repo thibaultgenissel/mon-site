@@ -14,8 +14,8 @@ last_name: Genissel
 # pronouns: he/him
 
 # Status emoji
-status:
-  icon: 
+# status:
+#  icon: "🐐"
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,12 +24,15 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chercheur en Sciences de la Conservation
+
+role: Chercheur et conférencier en Sciences de la Conservation
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Sorbonne Université
+  - name: ENS de Lyon - Sorbonne Université
     url: 
+  - name: Indépendant (Auto-entrepreneur)
+    url:   
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -49,12 +52,16 @@ profiles:
     url: https://orcid.org/0009-0002-3129-8228
 
 interests:
-  - Changements globaux
   - Interactions humain-faune sauvage
   - Philosophie de l'environnement
+  - Evocentrisme
   - Conservation animale
   - Comportement animal
+  - Translocations
+  - Espaces protégés
+  - Droit de l'environnement
   - Écologie alpine
+
 
 
 education:

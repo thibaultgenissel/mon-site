@@ -15,10 +15,10 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/CV_genissel.pdf
       button2:
         text: Download Speaker Sheet
-        url: uploads/fiche_speaker_thibault_genissel.pdf        
+        url: uploads/speaker_sheet_genissel.pdf        
       headings:
         about: ''
         education: ''
@@ -67,6 +67,7 @@ sections:
       filters:
         folders:
           - book #events
+        featured_only: true
     design:
       view: card
 #  - block: collection
