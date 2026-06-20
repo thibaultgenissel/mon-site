@@ -1,14 +1,14 @@
 
 ---
 # Display name
-title: Thibault Genissel
+title: Thibault Génissel
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Thibault
-last_name: Genissel
+last_name: Génissel
 
 # Pronouns (optional)
 # pronouns: he/him
@@ -40,8 +40,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:thibault.genissel@ikmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+# - icon: brands/x
+  #  url: https://twitter.com/AlexAIResearch*\
   - icon: brands/github
     url: https://github.com/thibaultgenissel
   - icon: brands/linkedin
@@ -52,6 +52,10 @@ profiles:
     url: https://orcid.org/0009-0002-3129-8228
 
 interests:
+  - Ecologie
+  - Evolution
+  - Changements globaux 
+  - Transition environnementale
   - Interactions humain-faune sauvage
   - Philosophie de l'environnement
   - Evocentrisme
@@ -70,7 +74,7 @@ education:
     date_start: 2021-09-01
     date_end: 2024-08-31
     summary: |
-      Thèse sur _La conservation évocentrée de la biodiversité : contexte, métriques, implémentation_. Dirigée par le Prof. François Sarrazin et la Prof. Jane Lecomte.
+      Thèse sur _La conservation évocentrée de la biodiversité : contexte, métriques, implémentation_. Dirigée par François Sarrazin et Jane Lecomte.
       Mention très honorable avec félicitations du jury
     button:
       text: 'Lire la thèse'
@@ -80,7 +84,7 @@ education:
     date_start: 2020-09-01
     date_end: 2021-06-30
     summary: |
-      Note : 16,2/20 - Mention très bien
+      Note : 16,2/20 - Mention très bien -
       Spécialisation en philosophie de l'environnement.
   - area: Master Climat, Usage des terres et Services écosystémiques
     institution: AgroParisTech, Institut des sciences du vivant, de l'alimentation et de l'environnement - Université Paris-Saclay
@@ -93,7 +97,7 @@ education:
     date_start: 2017-09-01
     date_end: 2020-06-30
     summary: |
-      Mention très bien
+      Mention très bien -
       Spécialisation en analyse de données spatiales.
   - area: Licence Biosciences
     institution: École Normale Supérieure de Lyon
@@ -198,8 +202,12 @@ languages:
     percent: 100
   - name: Anglais
     percent: 90
-  - name: Anglais
+  - name: Espagnol
     percent: 60
+  - name: Italien
+    percent: 30    
+  - name: Japonais
+    percent: 10 
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -216,11 +224,13 @@ languages:
 
 ---
 
-Je suis un jeune chercheur en sciences de la conservation, j'ai récemment soutenu une thèse à Sorbonne Université sur l'approche évocentrée de la conservation de la biodiversité. Mon parcours est pluridisciplinaire et je porte un intérêt profond pour la compréhension et la protection des vivants et des relations des humains avec eux.
+Je suis un jeune chercheur en sciences de la conservation, mon travail de thèse a porté sur l'approche évocentrée de la conservation de la biodiversité, qui cible l'impact des activités humaines sur l'évolution des espèces. Mon parcours académique est pluridisciplinaire, formé par l'ENS de Lyon entre biosciences et philosophie de l'environnement, je porte un intérêt profond pour la compréhension et la protection du vivant.
 
-J'ai enseigné en tant que chargé de travaux dirigés à l'université et continue aujourd'hui à donner des cours particuliers à des étudiants en formation.
+Je mène une activité de communication scientifique à destination du grand public, à travers des conférences sur la biodiversité, l'histoire de la conservation et à l'éthique environnementale. Au delà de transmettre des connaissances scientifiques fiables, mon envie est de donner des clés de compréhension et un regard critique sur les enjeux contemporains, sur notre place individuel et collective dans les transformations dans lesquelles nos sociétés sont inévitablement engagées. 
 
-Je mène également des activités de communication scientifique à destination du grand public, notamment des conférences sur des thèmes liés à la biodiversité, à l'histoire de la conservation et à la philosophie de l'environnement.
+
+
+
 
 
 

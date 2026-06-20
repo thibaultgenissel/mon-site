@@ -41,3 +41,27 @@
 .dark .hbx-bg-gradient::before {
   background-image: linear-gradient(135deg, #1f1409 0%, #3d2a1a 100%) !important;
 }
+
+.prose .speaker-page {
+  max-width: 100% !important;
+}
+
+.prose {
+  max-width: 100% !important;
+}
+
+.prose:has(.speaker-page) {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+main:has(.speaker-page) {
+  max-width: 100% !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+.w-full.min-h-0.max-w-6xl {
+  max-width: 100% !important;
+}
+/* pour augmenter la largeur sur la page conferencier book */
+

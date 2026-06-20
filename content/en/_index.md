@@ -36,7 +36,7 @@ sections:
       text: |-
        I am interested in the connections between science, society, and biodiversity conservation. As part of my PhD at Sorbonne University, I worked the evocentric approach that promotes more integration of evolution in conseration and the reduction of the human evolutionary footprint on life. My research explores metrics and assessment tools and their implementation in conservation policies and practices. My academic path has also led me to study animal behavior, ecology and social interactions (primates, ungulates) and to take part in international forums (COP15 biodiversity, IUCN) where major biodiversity challenges are discussed. Beyond this, I have a strong personal interest in mountain ecosystems, for their understanding, their protection, and for fostering  ways of living that adapt to their changes while limiting our impact.
 
-        Please reach out to collaborate 😃
+        Please reach out to collaborate!
     design:
       columns: '1'
   - block: collection
@@ -70,35 +70,35 @@ sections:
         featured_only: true
     design:
       view: card
-#  - block: collection
-#    id: news
-#    content:
-#      title: Recent News
-#      subtitle: ''
-#      text: ''
-      # Page type to display. E.g. post, talk, publication...
-#      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-#      count: 5
+  - block: collection
+    id: news
+    content:
+      title: Recent News
+      subtitle: ''
+      text: ''
+  #     Page type to display. E.g. post, talk, publication...
+      page_type: blog
+  #    Choose how many pages you would like to display (0 = all pages)
+      count: 5
       # Filter on criteria
-#      filters:
-#        author: ''
-#        category: ''
-#        tag: ''
-#        exclude_featured: false
-#        exclude_future: false
-#        exclude_past: false
-#        publication_type: ''
+      filters:
+        author: ''
+        category: ''
+        tag: ''
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ''
       # Choose how many pages you would like to offset by
-#      offset: 0
+      offset: 0
       # Page order: descending (desc) or ascending (asc) date.
-#      order: desc
-#    design:
+      order: desc
+    design:
       # Choose a layout view
-#      view: card
+      view: card
       # Reduce spacing
-#      spacing:
-#        padding: [0, 0, 0, 0]
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

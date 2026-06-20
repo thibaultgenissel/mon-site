@@ -7,6 +7,9 @@ main:
     - name: Bio
       url: /
       weight: 10
+
+
+
     - name: CV
       url: experience/
       weight: 11      
@@ -20,19 +23,30 @@ main:
 #      url: /events/
 #      weight: 13 # talks enlevé pour ne laisser que les sujets de conf statiques
 
+      name: Concepts
+      url: /concepts/
+      weight: 15
+
+    - name: Speaker profile
+      url: /speaker/
+      weight: 25
+#    - name: Projects
+
     - name: Talks
       url: /book/
-      weight: 14      
+      weight: 30     
+
 #    - name: News
-#      url: /#news
+    #  url: /#news
+#      url: /news
 #      weight: 14
- 
-#    - name: Projects
+  
 #      url: projects/
 #      weight: 30
     #- name: Courses
     #  url: courses/
     #  weight: 40 
+
     - name: Gallery
       url: gallery/ 
       weight: 40

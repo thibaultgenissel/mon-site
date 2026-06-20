@@ -36,12 +36,12 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 Ma recherche'
+      title: '📚 Ma Recherche'
       subtitle: ''
       text: |-
        Mes travaux portent sur les liens entre science, société et conservation de la biodiversité. Dans le cadre de ma thèse à Sorbonne Université, j'ai travaillé sur l'approche évocentrée, qui promeut une meilleure intégration de l'évolution en conservation et la réduction de l'empreinte évolutive humaine sur les vivants. Mes recherches explorent les métriques et concepts de l'approche évocentrée, ainsi que leur mise en œuvre dans les politiques et pratiques de conservation. Mon parcours s'est nourri d'un travail sur le comportement animal, l'écologie spatiale et les interactions sociales chez les mammifères (primates, ongulés), ainsi que de ma participation à des forums internationaux (COP15 biodiversité, UICN) où sont débattus les grands enjeux de la conservation. De manière plus locale, je porte un intérêt personnel fort pour les écosystèmes de montagne, leur compréhension et la protection de leur faune et de leur flore.
 
-       Contactez-moi pour collaborer 😃
+       Contactez-moi pour collaborer! 
     design:
       columns: '1'
       css_class: 'universal-wrapper'

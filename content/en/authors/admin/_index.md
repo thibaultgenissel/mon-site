@@ -38,8 +38,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:thibault.genissel@ikmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: brands/x
+  #  url: https://twitter.com/AlexAIResearch*\
   - icon: brands/github
     url: https://github.com/thibaultgenissel
   - icon: brands/linkedin
@@ -50,7 +50,10 @@ profiles:
     url: https://orcid.org/0009-0002-3129-8228
 
 interests:
-  
+  - Ecology
+  - Evolution
+  - Global changes
+  - Environemental transition
   - Human-wildlife interactions
   - Environmental Philosophy
   - Evocentrism
@@ -211,6 +214,10 @@ languages:
     percent: 90
   - name: Spanish
     percent: 60
+  - name: Italian
+    percent: 30    
+  - name: Japanese
+    percent: 10 
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -227,11 +234,9 @@ languages:
 
 ---
 
-I am a young research scientist who has recently completed a PhD at Sorbonne University on the evocentric approach to biodiversity conservation. I have an interdisciplinary background and a keen interest in understanding and protecting nature and human interactions with the livings.
+I am a researcher in conservation sciences. My doctoral work focused on the evocentric approach to biodiversity conservation, which targets the impact of human activities on the evolutionary trajectories of species. My academic background is multidisciplinary, educated at the ENS de Lyon across biosciences and environmental philosophy, and I have a deep interest in understanding and protecting the living.
 
-I have taught tutorials at university and now continue to tutor graduating students privately.
-
-I also pursue scientific communication through public and professional talks on ecological transition, biodiversity conservation, and environmental philosophy.
+Alongside my research, I bring science to general audiences through talks on biodiversity, the history of conservation, and environmental ethics. Beyond conveying reliable scientific knowledge, my aim is to provide keys to understanding and a critical perspective on contemporary challenges — on our individual and collective place in the transformations our societies are inevitably undergoing.
 
 
 

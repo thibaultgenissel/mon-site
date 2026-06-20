@@ -8,8 +8,8 @@
   translation: "Conférences"
 - id: projects
   translation: "Projets"
-- id: experience
-  translation: "Expérience"
+- id: experiences
+  translation: "Expériences"
 - id: skills
   translation: "Compétences"
 - id: contact
@@ -23,8 +23,8 @@
 - id: education
   translation: "Formation"
 
-- id: experience
-  translation: "Expérience"
+- id: experiences
+  translation: "Expériences"
 
 - id: about_me
   translation: "Résumé professionnel"

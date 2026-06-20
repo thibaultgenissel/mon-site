@@ -22,6 +22,9 @@ fr:
       - name: Bio
         url: /fr/
         weight: 10
+
+
+
       - name: CV
         url: /fr/experience/
         weight: 20        
@@ -29,9 +32,17 @@ fr:
         url: /fr/publications/
         weight: 30
 
+      - name: Thèmes
+        url: /fr/concepts/
+        weight: 40
+
       - name: Conférences
         url: /fr/book/
         weight: 50
+
+      - name: Profil conférencier
+        url: /fr/speaker/
+        weight: 45
   #    - name: Projets
    #     url: /fr/project/
     #    weight: 60
