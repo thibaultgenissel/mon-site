@@ -71,8 +71,8 @@ sections:
     design:
       view: card
   - block: collection
-    id: news
     demo: true
+    id: news
     content:
       title: Recent News
       subtitle: ''
