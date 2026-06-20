@@ -72,6 +72,7 @@ sections:
       view: card
   - block: collection
     id: news
+    demo: true
     content:
       title: Recent News
       subtitle: ''
