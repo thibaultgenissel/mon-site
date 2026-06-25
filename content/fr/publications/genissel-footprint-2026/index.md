@@ -30,8 +30,8 @@ tags:
 featured: true
 
 hugoblox:
-  ids:
-    arxiv: 
+#  ids:
+#    arxiv: 
 
 links:
 # - type: preprint
@@ -50,8 +50,8 @@ links:
 # - type: video
 #   url: https://youtube.com
 # - type: custom
-#   label: Custom Link
-#   url: http://example.org
+   label: Voir en ligne
+   url: https://onlinelibrary.wiley.com/doi/10.1111/eva.70267
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
