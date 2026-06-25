@@ -22,12 +22,39 @@ sections:
       headings:
         about: ''
         education: ''
-        interests: ''
+      #  interests: ''
+      themes:
+        - History of Conservation
+        - Climate & Biodiversity Crisis
+        - Institutions & Indicators of Environmental Transition
+  
     design:
       css_class: hbx-bg-gradient
       avatar:
         size: medium
         shape: circle
+
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: |-
+  #       <h3 style="font-weight: 700; color: #1a3d28; text-align: center; margin-bottom: 1.5rem; font-size: 1rem; letter-spacing: 0.15em; text-transform: uppercase; font-family: inherit;">Talk Topics</h3>
+  #       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; align-items: stretch;">
+  #         <div style="background: linear-gradient(160deg, #f5ebe0 0%, #e8d5c0 100%); padding: 2.5rem 1.5rem; display: flex; align-items: center; justify-content: center; border-radius: 16px; box-shadow: 0 6px 20px rgba(61,42,26,0.2); border: 2px solid #8b6340;">
+  #           <p style="font-weight: 600; color: #61462d; font-size: 1.3rem; line-height: 1.5; text-align: center; font-family: inherit; text-transform: uppercase; margin: 0;">History<br>of<br>Conservation</p>
+  #         </div>
+  #         <div style="background: linear-gradient(160deg, #f5ebe0 0%, #e8d5c0 100%); padding: 2.5rem 1.5rem; display: flex; align-items: center; justify-content: center; border-radius: 16px; box-shadow: 0 6px 20px rgba(61,42,26,0.2); border: 2px solid #8b6340;">
+  #           <p style="font-weight: 600; color: #61462d; font-size: 1.3rem; line-height: 1.5; text-align: center; font-family: inherit; text-transform: uppercase; margin: 0;">Climate<br>&amp;<br>Biodiversity<br>Crisis</p>
+  #         </div>
+  #         <div style="background: linear-gradient(160deg, #f5ebe0 0%, #e8d5c0 100%); padding: 2.5rem 1.5rem; display: flex; align-items: center; justify-content: center; border-radius: 16px; box-shadow: 0 6px 20px rgba(61,42,26,0.2); border: 2px solid #8b6340;">
+  #           <p style="font-weight: 600; color: #61462d; font-size: 1.3rem; line-height: 1.5; text-align: center; font-family: inherit; text-transform: uppercase; margin: 0;">Institutions<br>of<br>Environmental<br>Transition</p>
+  #         </div>
+  #       </div>
+  #   design:
+  #     columns: '1'
+  #     spacing:
+  #       padding: ['0', '0', '0', '0'] 
 
   - block: markdown
     content:
@@ -60,16 +87,17 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - book #events
-        featured_only: true
-    design:
-      view: card
+
+#  - block: collection
+#    id: talks
+#    content:
+#      title: Recent & Upcoming Talks
+#      filters:
+#        folders:
+#          - book #events
+#        featured_only: true
+#    design:
+#      view: card
   - block: collection
     demo: true
     id: news

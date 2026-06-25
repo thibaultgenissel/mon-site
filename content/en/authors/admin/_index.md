@@ -234,10 +234,9 @@ languages:
 
 ---
 
-I am a researcher in conservation sciences. My doctoral work focused on the evocentric approach to biodiversity conservation, which targets the impact of human activities on the evolutionary trajectories of species. My academic background is multidisciplinary, educated at the ENS de Lyon across biosciences and environmental philosophy, and I have a deep interest in understanding and protecting the living.
+I am a researcher in conservation sciences. My doctoral work focused on the evocentric approach to biodiversity conservation, which targets the impact of human activities on the evolutionary trajectories of species. Shaped by a multidisciplinary academic background at ENS de Lyon spanning biosciences and environmental philosophy, I have a deep interest in understanding and protecting living beings.
 
-Alongside my research, I bring science to general audiences through talks on biodiversity, the history of conservation, and environmental ethics. Beyond conveying reliable scientific knowledge, my aim is to provide keys to understanding and a critical perspective on contemporary challenges — on our individual and collective place in the transformations our societies are inevitably undergoing.
-
+I engage in science communication for general audiences, through talks on the biodiversity crisis, the impacts of climate change, the history of conservation, and environmental ethics. Beyond conveying scientific knowledge, my aim is to offer conceptual tools and a critical perspective on contemporary challenges — on our individual and collective place within the transformations our societies are inevitably navigating.
 
 
 

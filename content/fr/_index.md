@@ -25,6 +25,11 @@ sections:
         about: ''
         education: ''
         interests: ''
+      themes_title: 'Thèmes des conférences'
+      themes:
+        - History of Conservation
+        - Climate & Biodiversity Crisis
+        - Institutions & Indicators of Environmental Transition      
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -66,16 +71,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Conférences récentes & à venir
-      filters:
-        folders:
-          - book #events
-        featured_only: true
-    design:
-      view: card
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Conférences récentes & à venir
+  #     filters:
+  #       folders:
+  #         - book #events
+  #       featured_only: true
+  #   design:
+  #     view: card 
 #  - block: collection
 #    id: news
 #    content:

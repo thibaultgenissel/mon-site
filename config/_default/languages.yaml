@@ -32,7 +32,7 @@ fr:
         url: /fr/publications/
         weight: 30
 
-      - name: Thèmes
+      - name: Concepts
         url: /fr/concepts/
         weight: 40
 

@@ -15,7 +15,7 @@ main:
       weight: 11      
     - name: Publications
       url: /publications/
-      weight: 12
+      weight: 13
 #    - name: Talks
 #      url: /#talks
 #      weight: 13
@@ -23,7 +23,7 @@ main:
 #      url: /events/
 #      weight: 13 # talks enlevé pour ne laisser que les sujets de conf statiques
 
-      name: Concepts
+    - name: Concepts
       url: /concepts/
       weight: 15
 

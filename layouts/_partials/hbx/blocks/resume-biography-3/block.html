@@ -30,7 +30,7 @@
 {{ $shape_classes := dict "circle" "rounded-full" "square" "rounded-none" "rounded" "rounded-lg" }}
 {{ $shape_class := index $shape_classes $avatar_shape | default "rounded-full" }}
 
-<div class="resume-biography py-1 px-3 sm:py-2 md:py-3 lg:py-5 xl:py-7 relative overflow-hidden">
+<div class="resume-biography py-0 px-3 sm:py-0 md:py-1 lg:py-2 xl:py-3 relative overflow-hidden">
   {{/*<div class="resume-biography py-8 px-4 sm:py-12 md:py-16 lg:py-24 xl:py-32 relative overflow-hidden">*/}}
   {{/* Add subtle top gradient for navbar transition */}}
   <div class="max-w-7xl mx-auto">
@@ -112,7 +112,7 @@
         </div>
 
         {{/* Social Icons */}}
-        <div class="flex flex-wrap justify-center gap-4">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white">{{ if eq site.Language.Lang "fr" }}Contact & Liens{{ else }}Contact & Links{{ end }}</h3>        <div class="flex flex-wrap justify-center gap-4">
           {{ range $person.profiles }}
           {{ $pack := or .icon_pack "fas" }}
           {{ $pack_prefix := $pack }}
@@ -146,7 +146,7 @@
         {{/* Bio Section */}}
         {{ with ($block.content.text | emojify | $page.RenderString) | default $person_page.Content }}
         <div class="mb-12">
-          <div class="flex items-center gap-4 mb-8">
+        {{/*  <div class="flex items-center gap-4 mb-8">
             <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
               {{ partial "functions/get_icon" (dict "name" "identification" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
             </div>
@@ -154,8 +154,8 @@
             {{ $about_default := cond (eq $i18n_about "about_me") "Professional Summary" $i18n_about }}
             {{ $about_heading := $block.content.headings.about | default $about_default }}
             <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $about_heading }}</h2>
-          </div>
-          <div class="prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed">
+          </div>*/}}
+          <div class="prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-xl leading-relaxed">
             <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
               {{ . }}
             </div>
@@ -211,7 +211,9 @@
         </div>
         {{ end }} */}}
 
-        {{/* Interests Section */}}
+
+
+        {{/*     Interests Section 
         {{ with $person.interests }}
         <div>
           <div class="flex items-center gap-4 mb-8">
@@ -232,8 +234,55 @@
             {{ end }}
           </div>
         </div>
-        {{ end }}
+        {{ end }}*/}}
+
+       </div>
+      {{/* fin mb-16 buttons */}}
       </div>
-    </div>
+      {{/* fin right column */}}
+    </div> 
+
+    {{/* Talk Themes - pleine largeur */}}
+        {{ with $block.content.themes }}
+    <div class="mt-8 mb-4">
+      <div class="flex items-center justify-center gap-4 mb-6">
+       {{/* <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-content">
+          {{ partial "functions/get_icon" (dict "name" "microphone" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
+        </div> */}}
+        <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $block.content.themes_title | default "Talk Topics" }}</h3>
+      </div>
+      <div class="grid grid-cols-3 gap-6">
+        <div style="position: relative; aspect-ratio: 1; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(61,42,26,0.2);">
+          <img src="/media/themes/history.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; inset: 0; background: rgba(61,42,26,0.5); display: flex; align-items: center; justify-content: center;">
+            <p style="font-weight: 600; color: #fdf8f3; font-size: 1.2rem; line-height: 1.5; text-align: center; font-family: inherit; text-transform: uppercase; margin: 0;">
+              {{ if eq site.Language.Lang "fr" }}Histoire<br>de la<br>Conservation{{ else }}History<br>of<br>Conservation{{ end }}
+            </p>
+          </div>
+        </div>
+        <div style="position: relative; aspect-ratio: 1; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(61,42,26,0.2);">
+          <img src="/media/themes/crise7.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; inset: 0; background: rgba(61,42,26,0.5); display: flex; align-items: center; justify-content: center;">
+            <p style="font-weight: 600; color: #fdf8f3; font-size: 1.2rem; line-height: 1.5; text-align: center; font-family: inherit; text-transform: uppercase; margin: 0;">
+              {{ if eq site.Language.Lang "fr" }}Crise<br>Climatique &amp;<br>Biodiversité{{ else }}Climate<br>&amp;<br>Biodiversity<br>Crisis{{ end }}
+            </p>
+          </div>
+        </div>
+        <div style="position: relative; aspect-ratio: 1; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(61,42,26,0.2);">
+          <img src="/media/themes/cop.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; inset: 0; background: rgba(61,42,26,0.5); display: flex; align-items: center; justify-content: center;">
+            <p style="font-weight: 600; color: #fdf8f3; font-size: 1.1rem; line-height: 1.5; text-align: center; font-family: inherit; text-transform: uppercase; margin: 0;">
+              {{ if eq site.Language.Lang "fr" }}Institutions<br>&amp;<br>Indicateurs<br>de la<br>Transition<br>Environnementale{{ else }}Institutions<br>&amp;<br>Indicators<br>of<br>Environmental<br>Transition{{ end }}
+            </p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+
+
+
+
   </div>
+  {{/* fin max-w-7xl */}}
 </div>
+{{/* fin resume-biography */}}
