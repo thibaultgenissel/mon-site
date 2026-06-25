@@ -50,8 +50,8 @@ links:
 # - type: video
 #   url: https://youtube.com
 # - type: custom
-   label: Voir en ligne
-   url: https://onlinelibrary.wiley.com/doi/10.1111/eva.70267
+#   label: Voir en ligne
+#   url: https://onlinelibrary.wiley.com/doi/10.1111/eva.70267
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
