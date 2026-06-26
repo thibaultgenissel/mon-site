@@ -27,13 +27,14 @@ fr:
 
       - name: CV
         url: /fr/experience/
-        weight: 20        
-      - name: Publications
-        url: /fr/publications/
+        weight: 20   
+
+      - name: Recherche
+        url: /fr/concepts/     
         weight: 30
 
-      - name: Concepts
-        url: /fr/concepts/
+      - name: Publications
+        url: /fr/publications/
         weight: 40
 
       - name: Conférences

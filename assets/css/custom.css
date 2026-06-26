@@ -65,3 +65,7 @@ main:has(.speaker-page) {
 }
 /* pour augmenter la largeur sur la page conferencier book */
 
+.page-body h1.lg\:text-6xl {
+  font-size: 2rem !important;
+  line-height: 1.2 !important;
+}

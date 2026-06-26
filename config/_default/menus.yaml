@@ -13,9 +13,11 @@ main:
     - name: CV
       url: experience/
       weight: 11      
-    - name: Publications
-      url: /publications/
-      weight: 13
+      
+    - name: Research
+      url: /concepts/
+      weight: 10
+
 #    - name: Talks
 #      url: /#talks
 #      weight: 13
@@ -23,8 +25,8 @@ main:
 #      url: /events/
 #      weight: 13 # talks enlevé pour ne laisser que les sujets de conf statiques
 
-    - name: Concepts
-      url: /concepts/
+    - name: Publications
+      url: /publications/
       weight: 15
 
     - name: Speaker profile
