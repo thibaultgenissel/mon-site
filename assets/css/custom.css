@@ -69,3 +69,11 @@ main:has(.speaker-page) {
   font-size: 2rem !important;
   line-height: 1.2 !important;
 }
+
+@media (max-width: 640px) {
+  .blox-markdown .prose {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
