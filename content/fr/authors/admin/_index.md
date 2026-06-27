@@ -31,7 +31,7 @@ role: Chercheur et conférencier en Sciences de la Conservation
 organizations:
   - name: ENS de Lyon - Sorbonne Université
     url: 
-  - name: Indépendant (Auto-entrepreneur)
+  - name: Indépendant 
     url:   
 
 # Social network links

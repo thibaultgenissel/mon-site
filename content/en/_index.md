@@ -58,10 +58,26 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 My Research'
+    #  title: '📚 Ma Recherche'
       subtitle: ''
       text: |-
-       I am interested in the connections between science, society, and biodiversity conservation. As part of my PhD at Sorbonne University, I worked the evocentric approach that promotes more integration of evolution in conseration and the reduction of the human evolutionary footprint on life. My research explores metrics and assessment tools and their implementation in conservation policies and practices. My academic path has also led me to study animal behavior, ecology and social interactions (primates, ungulates) and to take part in international forums (COP15 biodiversity, IUCN) where major biodiversity challenges are discussed. Beyond this, I have a strong personal interest in mountain ecosystems, for their understanding, their protection, and for fostering  ways of living that adapt to their changes while limiting our impact.
+        <style>
+          .page-body   {background: linear-gradient(135deg, #fdf8f3 0%, #f0e6d3 100%)}
+         /*.dark .page-body { background: #3b2b19  }*/
+          .dark .page-body { background: none }
+          .hbb-section { padding-top: 0 !important; margin-top: 0 !important; }
+          .blox-markdown { padding-top: 0 !important; margin-top: 0 !important; }
+          .prose p { text-align: justify; }
+           article { padding-top: 0 !important; }
+          main { padding-top: 0 !important; }
+        </style>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+          <svg class="w-8 h-8 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <h2 style="font-size: 1.8rem; font-weight: 700; margin: 0;">My Research</h2>
+        </div>
+        <div style="text-align: justify;">
+
+         I am interested in the connections between science, society, and biodiversity conservation. As part of my PhD at Sorbonne University, I worked the evocentric approach that promotes more integration of evolution in conseration and the reduction of the human evolutionary footprint on life. My research explores metrics and assessment tools and their implementation in conservation policies and practices. My academic path has also led me to study animal behavior, ecology and social interactions (primates, ungulates) and to take part in international forums (COP15 biodiversity, IUCN) where major biodiversity challenges are discussed. Beyond this, I have a strong personal interest in mountain ecosystems, for their understanding, their protection, and for fostering  ways of living that adapt to their changes while limiting our impact.
 
         Please reach out to collaborate!
     design:

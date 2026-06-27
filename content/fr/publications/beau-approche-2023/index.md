@@ -45,7 +45,7 @@ publication: "CNRS-INEE, pp211-219"
 publication_short: ""
 
 abstract: 
- 
+  "3 priorités scientifiques à aborder d'ici 2030 : Accroître la réflexivité sur les pratiques de recherche dans les laboratoires dans une démarche collective, ce qui exige du temps et des espaces de délibération dédiés. Utiliser les éthiques environnementales non pas au service de la résolution de conflits entre les humains et la nature, mais comme des aiguillons critiques pour réexaminer les pratiques sous un angle moins anthropocentré et plus sensible aux enjeux de justices sociale et écologique. Repenser l’arbitrage entre protection de la nature et protection des humains dans une démarche plus inclusive."
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -54,13 +54,13 @@ tags:
 
 featured: false
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+# hugoblox:
+#   ids:
+#     arxiv: 1512.04133v1
 
 links:
   - type: pdf
-    url: https://hal.science/hal-04311761v1/file/Beau%20et%20al%202023%20CNRS_Ecologie-%26-Environnement_Prospectives-2023_WEB.pdf
+    url: "https://dumas.ccsd.cnrs.fr/ETHIQUE/hal-04311761v1"
 #  - type: code
 #    url: https://github.com/HugoBlox/hugo-blox-builder
 #  - type: dataset
@@ -71,8 +71,8 @@ links:
 #    url: ""
 #  - type: slides
 #    url: https://www.slideshare.net/
-#  - type: source
-#    url: ""
+  # - type: source
+  #   url: "https://dumas.ccsd.cnrs.fr/ETHIQUE/hal-04311761v1"
 #  - type: video
 #    url: ""
 
@@ -88,20 +88,13 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+#projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+#slides: ""
 ---
 
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

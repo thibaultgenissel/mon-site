@@ -67,15 +67,16 @@ tags:
 # Display this page in a list of Featured pages?
 featured: false
 
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+links:
+  - type: pdf
+    url: 'https://hal.science/hal-04934960'
+# url_code: ''
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: 'https://dumas.ccsd.cnrs.fr/ETHIQUE/hal-04311761v1'
+# url_video: ''
 
 # Custom links (uncomment lines below)
 # links:
@@ -94,10 +95,6 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
-links:
-- name: URL
-  url: https://hal.science/hal-04934960
----
+# projects: []
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+---

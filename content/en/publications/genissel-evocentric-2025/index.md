@@ -72,13 +72,13 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+# hugoblox:
+#   ids:
+#     arxiv: 1512.04133v1
 
 links:
   - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
+    url: https://www.portcros-parcnational.fr/sites/portcros-parcnational.fr/files/2025-11/9-Genissel%20et%20al%20Evocentrisme-IN-RAV.pdf
 #  - type: code
 #    url: https://github.com/HugoBlox/hugo-blox-builder
 #  - type: dataset
@@ -106,20 +106,12 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+#projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+#slides: ""
 ---
-
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

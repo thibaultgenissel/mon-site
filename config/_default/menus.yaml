@@ -8,15 +8,13 @@ main:
       url: /
       weight: 10
 
-
-
     - name: CV
       url: experience/
       weight: 11      
       
     - name: Research
       url: /concepts/
-      weight: 10
+      weight: 12
 
 #    - name: Talks
 #      url: /#talks
@@ -29,14 +27,14 @@ main:
       url: /publications/
       weight: 15
 
-    - name: Speaker profile
+    - name: Talks
       url: /speaker/
       weight: 25
 #    - name: Projects
 
-    - name: Talks
-      url: /book/
-      weight: 30     
+    # - name: Talks
+    #   url: /book/
+    #   weight: 30     
 
 #    - name: News
     #  url: /#news

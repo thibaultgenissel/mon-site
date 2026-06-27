@@ -252,8 +252,9 @@
         }
       </style>
       <div class="flex items-center justify-center gap-4 mb-6">
-        <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-content">
-        </div>
+      <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
+        {{ partial "functions/get_icon" (dict "name" "microphone" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
+      </div>
         <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $block.content.themes_title | default "Talk Topics" }}</h3>
       </div>
       <div class="themes-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem;">

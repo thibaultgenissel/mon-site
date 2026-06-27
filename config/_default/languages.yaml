@@ -4,26 +4,24 @@
 
 # Default language
 en:
-  languageCode: en-us
+  languageCode: en-uk
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-  weight: 1
+  weight: 2
 
 # Uncomment the lines below to configure your website in a second language.
 fr:
   languageCode: fr
   contentDir: content/fr
-  weight: 2
+  weight: 1
   title: "Thibault Genissel - Recherche"
   params:
-    description: "Mon CV académique et mes publications"
+    description: "Recherche et conférences"
   menu:
     main:
       - name: Bio
         url: /fr/
         weight: 10
-
-
 
       - name: CV
         url: /fr/experience/
@@ -37,11 +35,11 @@ fr:
         url: /fr/publications/
         weight: 40
 
-      - name: Conférences
-        url: /fr/book/
-        weight: 50
+      # - name: Conférences
+      #   url: /fr/book/
+      #   weight: 50
 
-      - name: Profil conférencier
+      - name: Conférences
         url: /fr/speaker/
         weight: 45
   #    - name: Projets

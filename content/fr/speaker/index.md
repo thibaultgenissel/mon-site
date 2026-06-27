@@ -1,6 +1,8 @@
 ---
 title: ""
 type: page
+reading_time: false
+
 ---
 {{< raw >}}
 <style>
@@ -279,22 +281,21 @@ s
     margin-bottom: 2rem;
   }
 
-.page-body:has(.speaker-page) {
+/* .page-body:has(.speaker-page) {
   background: linear-gradient(135deg, #fdf8f3 0%, #f0e6d3 100%);
   margin-top: 0 !important;
   padding-top: 0 !important;
-}
+} */
 
 .dark .page-body:has(.speaker-page) {
   background: none;
 }
 
 </style>
-<img src="/bandeau.jpg" alt="" class="speaker-banner">
-<div class="speaker-page">
-
   <div class="speaker-header">
-  <div class="eyebrow">Conférencier</div>
+<div style="font-size: clamp(1rem, 3vw, 2.5rem); font-weight: 900; color: var(--tw-prose-headings, #111827); font-family: inherit; margin-bottom: 0.5rem; line-height: 1.1; letter-spacing: -0.02em;">Profil conférencier</div>
+ 
+ <img src="/bandeau.jpg" alt="" class="speaker-banner">
   <h1 class="speaker-title">Transition Environnementale & Biodiversité</h1>
   <!--<p class="tagline">Conférences & interventions — France entière, présentiel & distanciel</p>-->
 </div>
@@ -316,9 +317,10 @@ s
       </div>
 
 
-      <div class="section-label" style="margin-top:2rem;">Conférences proposées</div>
-
-      <p class="profile-text">→ <a href="/fr/book/" style="color: #2d6e3e;">Voir toutes les conférences proposées</a></p>
+      <div class="section-label" style="margin-top:2rem;">Conférences</div>
+      <div style="margin-top: 1rem;text-align: center;">
+        <a href="/fr/book/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(to right, #2d6e3e, #1a4d28); color: white; padding: 0.8rem 1.6rem; font-size: 0.9rem; font-weight: 700; text-decoration: none; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(45,110,62,0.3); transition: all 0.3s;"> Voir les conférences proposées</a>
+      </div>
 <!--
       <div class="section-label" style="margin-top:2rem;">Conférences proposées</div>
 
