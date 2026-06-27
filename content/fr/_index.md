@@ -67,6 +67,8 @@ sections:
     design:
       columns: '1'
       css_class: 'universal-wrapper'
+      spacing:
+        padding: ['0', '1rem', '0', '1rem']
   - block: collection
     id: papers
     content:

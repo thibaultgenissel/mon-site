@@ -3,7 +3,7 @@
 }
 
 .blox-markdown .flex {
-  max-width: 80% !important;
+  max-width: 110% !important;
 }
 
 :root {
@@ -71,9 +71,29 @@ main:has(.speaker-page) {
 }
 
 @media (max-width: 640px) {
-  .blox-markdown .prose {
-    max-width: 100% !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
+
 }
+
+@media (max-width: 640px) {
+    .blox-markdown .prose {
+    max-width: 100% !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .blox-markdown .flex.flex-col {
+    max-width: 100% !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .prose p { text-align: left !important;
+      font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+    text-align: left !important; }
+  p { text-align: left !important; }
+  
+}
+
+.text-neutral-500.text-xs {
+  display: none !important;
+}
+

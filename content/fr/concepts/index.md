@@ -1,6 +1,7 @@
 ---
 title: ''
 type: landing
+show_date: false
 design:
   spacing: '4rem'
 sections:
