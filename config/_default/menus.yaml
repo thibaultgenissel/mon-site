@@ -13,7 +13,7 @@ main:
       weight: 11      
       
     - name: Research
-      url: /concepts/
+      url: /research/
       weight: 12
 
 #    - name: Talks
