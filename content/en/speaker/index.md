@@ -292,6 +292,8 @@ s
   background: none;
 }
 
+.prose p { text-align: justify; }
+
 </style>
 
 

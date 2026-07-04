@@ -291,6 +291,8 @@ s
   background: none;
 }
 
+.prose p { text-align: justify; }
+
 </style>
   <div class="speaker-header">
 <div style="font-size: clamp(1rem, 3vw, 2.5rem); font-weight: 900; color: var(--tw-prose-headings, #111827); font-family: inherit; margin-bottom: 0.5rem; line-height: 1.1; letter-spacing: -0.02em;">Profil conférencier</div>

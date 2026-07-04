@@ -12,9 +12,9 @@ baseURL: 'https://thibaultgenissel.fr/'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: fr
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################

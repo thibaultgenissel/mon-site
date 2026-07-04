@@ -60,19 +60,16 @@ main:has(.speaker-page) {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
-.w-full.min-h-0.max-w-6xl {
+/* .w-full.min-h-0.max-w-6xl {
   max-width: 100% !important;
-}
+} */
 /* pour augmenter la largeur sur la page conferencier book */
 
-.page-body h1.lg\:text-6xl {
+/* .page-body h1.lg\:text-6xl {
   font-size: 2rem !important;
   line-height: 1.2 !important;
-}
+} */
 
-@media (max-width: 640px) {
-
-}
 
 @media (max-width: 640px) {
     .blox-markdown .prose {
@@ -100,3 +97,9 @@ main:has(.speaker-page) {
   display: none !important;
 }
 
+@media (min-width: 640px) {
+  .blox-markdown .prose {
+    max-width: 85ch !important;
+    margin: 0 auto;
+  }
+}
