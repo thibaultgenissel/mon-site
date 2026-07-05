@@ -28,7 +28,7 @@ fr:
         weight: 20   
 
       - name: Recherche
-        url: /fr/concepts/     
+        url: /fr/research/     
         weight: 30
 
       - name: Publications
