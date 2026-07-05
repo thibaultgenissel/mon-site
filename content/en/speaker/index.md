@@ -323,7 +323,7 @@ s
 
       <div class="section-label" style="margin-top:2rem;">Proposed talks</div>
       <div style="margin-top: 1rem;text-align: center;">
-        <a href="/book/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(to right, #2d6e3e, #1a4d28); color: white; padding: 0.8rem 1.6rem; font-size: 0.9rem; font-weight: 700; text-decoration: none; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(45,110,62,0.3); transition: all 0.3s;"> Go to talk proposals page</a>
+        <a href="/en/book/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(to right, #2d6e3e, #1a4d28); color: white; padding: 0.8rem 1.6rem; font-size: 0.9rem; font-weight: 700; text-decoration: none; border-radius: 0.75rem; box-shadow: 0 4px 12px rgba(45,110,62,0.3); transition: all 0.3s;"> Go to talk proposals page</a>
       </div>
 
       <div class="section-label" style="margin-top:2rem;">Cross-perspectives: off-topic themes</div>
