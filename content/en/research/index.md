@@ -9,7 +9,8 @@ sections:
       title: "Evocentrism"
       subtitle: ''
       text: |-
-        <p style="text-align: center; font-style: italic;">
+
+
         Content coming soon — definition, history, applications
         </p>
         <p style="text-align: center; font-style: italic;">

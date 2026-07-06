@@ -309,7 +309,11 @@ s
 <div class="speaker-page">
 
   <div class="speaker-header">
-<div style="font-size: clamp(1rem, 3vw, 2.5rem); font-weight: 900; color: var(--tw-prose-headings, #111827); font-family: inherit; margin-bottom: 0.5rem; line-height: 1.1; letter-spacing: -0.02em;">Speaker Profile</div>
+<!-- 
+<div style="font-size: clamp(1rem, 3vw, 2.5rem); font-weight: 900; color: var(--tw-prose-headings, #111827); font-family: inherit; margin-bottom: 0.5rem; line-height: 1.1; letter-spacing: -0.02em;">Speaker Profile</div> -->
+
+<div style="font-size: clamp(1rem, 3vw, 2rem); font-weight: 700; color: var(--tw-prose-headings, #111827); text-align: center; font-family: inherit; margin-bottom: 0.5rem; line-height: 1.1; letter-spacing: -0.02em;">Speaker profile</div>
+
  <img src="/bandeau.jpg" alt="" class="speaker-banner">
 
   <h1 class="speaker-title">Environmental Transition & Biodiversity</h1>
