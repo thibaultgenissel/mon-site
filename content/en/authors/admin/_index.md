@@ -38,16 +38,20 @@ profiles:
   - icon: at-symbol
     url: 'mailto:thibault.genissel@ikmail.com'
     label: E-mail Me
-  # - icon: brands/x
+# - icon: brands/x
   #  url: https://twitter.com/AlexAIResearch*\
-  - icon: brands/github
-    url: https://github.com/thibaultgenissel
+ # - icon: brands/github
+ #   url: https://github.com/thibaultgenissel
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/thibaultgenissel/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=thibaultgenissel
-  - icon: academicons/orcid
-    url: https://orcid.org/0009-0002-3129-8228
+ # - icon: academicons/google-scholar
+ #   url: https://scholar.google.com/citations?user=thibaultgenissel
+ # - icon: academicons/orcid
+ #   url: https://orcid.org/0009-0002-3129-8228
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Thibault_Genissel
+  - icon: microphone
+    url: https://www.lespeakers.com/conferencier/thibault-genissel
 
 interests:
   - Ecology
