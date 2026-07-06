@@ -6,6 +6,16 @@ reading_time: false
 ---
 {{< raw >}}
 <style>
+
+
+.flex.flex-row.flex-wrap.justify-center.pt-4.text-xl {
+  display: none !important;
+}
+
+a.group.flex.no-underline {
+  display: none !important;
+}
+
 .speaker-page {
     font-family: inherit;
     max-width: 100%;

@@ -103,3 +103,16 @@ main:has(.speaker-page) {
     margin: 0 auto;
   }
 }
+
+.flex.flex-row.flex-wrap.justify-center.pt-4.text-xl {
+  display: none !important;
+}
+
+.group.flex.no-underline {
+  display: none !important;
+}
+
+
+.flex.pt-12.pb-4 {
+  display: none !important;
+}
