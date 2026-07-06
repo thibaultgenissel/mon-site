@@ -7,9 +7,11 @@ design:
 sections:
   - block: markdown
     content:
-      title: "L'évocentrisme"
+      title: 
       subtitle: ''
       text: |-
+
+            <div style="font-size: clamp(1rem, 3vw, 2rem); font-weight: 700; color: var(--tw-prose-headings, #111827); text-align: center; font-family: inherit; margin-bottom: 0.5rem; line-height: 1; letter-spacing: -0.02em;">L'évocentrisme</div>
 
             <p style="text-align: center; font-style: italic;">
             Contenu à venir — définition, historique, applications
