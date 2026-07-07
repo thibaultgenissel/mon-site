@@ -228,7 +228,7 @@ languages:
 
 ---
 
-Je suis un jeune chercheur en sciences de la conservation, mon travail de thèse a porté sur l'approche évocentrée de la conservation de la biodiversité, qui cible l'impact des activités humaines sur l'évolution des espèces. Depuis un parcours académique pluridisciplinaire, formé par l'ENS de Lyon entre biosciences et philosophie de l'environnement, je porte un intérêt profond pour la compréhension et la protection du vivant.
+Je suis un jeune chercheur en sciences de la conservation, mon travail de thèse a porté sur l'approche évocentrée de la conservation de la biodiversité, qui cible l'impact des activités humaines sur l'évolution des espèces. À travers un parcours académique pluridisciplinaire, formé par l'ENS de Lyon entre biosciences et philosophie de l'environnement, je porte un intérêt profond pour la compréhension et la protection du vivant.
 
 Je mène une activité de communication scientifique à destination du grand public, à travers des conférences sur la crise de la biodiversité, les impacts du dérèglement climatique, l'histoire de la conservation et l'éthique environnementale. Au delà de transmettre des connaissances scientifiques, mon but est de donner des clés de compréhension et un regard critique sur les enjeux contemporains, sur notre place individuelle et collective dans les transformations dans lesquelles nos sociétés sont inévitablement engagées. 
 
