@@ -15,7 +15,7 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: uploads/CV_genissel.pdf
+        url: uploads/CV_Genissel.pdf
       button2:
         text: Download Speaker Sheet
         url: uploads/speaker_sheet_genissel.pdf        
